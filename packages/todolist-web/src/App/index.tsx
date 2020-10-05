@@ -12,8 +12,10 @@ export default function App() {
       <Container>
         <Header>
           <TabButton>My Tasks</TabButton>
+          {/*
           <TabButton>In Progress</TabButton>
           <TabButton>Completed</TabButton>
+          */}
         </Header>
         <VerticalColumns />
       </Container>

@@ -27,7 +27,7 @@
 - [ ] Should be able to delete comment
 - [ ] Should be able to switch to in progress and completed view modes
 
-# Backend spec
+# Backend specs
 
 - [x] POST /create_item (create a new todo item, can also set the initial is_favorite and is_complete status)
       ![](https://i.imgur.com/4mi6YW8.png)

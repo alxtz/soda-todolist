@@ -55,3 +55,10 @@
   ![](https://i.imgur.com/xhDfIEz.png)
 - For the frontend part, I'm using ejected create-react-app with TypeScript and ESLint setup, so that the backend type definitions are more easily ported
 - Also using redux as a global state management tool + emotion for CSS-IN-JS styling
+
+# TODOs
+1. Tab filtering feature (FE)
+2. Edit a todo item (integrate /edit_item in FE)
+3. Attach file to an item (might need to use another storage service like aws s3, and implement access control)
+4. Add deadline to an item (FE + BE)
+5. Consider how to more easily test and deploy this project, the node.js server & react spa should be able to wrap inside a alpine docker image, while having postgresql run on another image (in development, use with docker-compose), while on production use cloud services for the actual db

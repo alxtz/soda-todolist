@@ -28,21 +28,21 @@
 
 # Backend Spec
 
-- [x] POST /create_item
+- [x] POST /create_item (create a new todo item, can also set the initial is_favorite and is_complete status)
       ![](https://i.imgur.com/4mi6YW8.png)
-- [x] GET /items
+- [x] GET /items (query for all the todo items)
       ![](https://i.imgur.com/gVFlwlp.png)
-- [x] POST /set_complete_status (complete/uncomplete)
+- [x] POST /set_complete_status (set the complete/uncomplete status for a given todo item)
       ![](https://i.imgur.com/8UUZOFF.png)
-- [x] POST /set_favorite_status (true/false)
+- [x] POST /set_favorite_status (set the fav/unfav status for a given todo item)
       ![](https://i.imgur.com/GzhlEjN.png)
-- [x] POST /edit_item
+- [x] POST /edit_item (edit the text content for a given todo item)
       ![](https://i.imgur.com/vzza37p.png)
-- [x] POST /create_comment
+- [x] POST /create_comment (create a comment under a given todo item)
       ![](https://i.imgur.com/RpIPa2e.png)
-- [x] DELETE /item
+- [x] DELETE /item (delete a todo item, would also cascade delete all the related comments)
       ![](https://i.imgur.com/xaPOY62.png)
-- [x] DELETE /comment
+- [x] DELETE /comment (delete a comment)
       ![](https://i.imgur.com/r7hV1sT.png)
 
 # Implementation

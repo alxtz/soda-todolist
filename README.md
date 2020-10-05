@@ -11,7 +11,7 @@
 # How to Start the project
 
 1. there are 2 yarn projects in this repo, go inside `packages/todolist-server` and `packages/todolist-web` and both run `yarn install` + `yarn dev`
-2. **[Important]** Note that `packages/todolist-server` depends on a Postgres DB with a db with name `todolist_db` running, initially I planned to have a docker image for it, but there was too little time left(so if you want to test, you'll need to create that DB manually, typeorm would automatically run the migrations once started)
+2. **[Important]** Note that `packages/todolist-server` depends on a Postgres DB with a db with name `todolist_db` running, initially I planned to have a docker image for it, but there was too little time left(so if you want to test, you'll need to create that DB `todolist_db` manually, typeorm would automatically run the migrations once started)
 
 # Frontend Specs
 

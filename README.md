@@ -8,13 +8,13 @@
 
 ![](https://i.imgur.com/cwvIEgx.png)
 
-# How to Start the project
+# How to start the project
 
 1. there are 2 yarn projects in this repo, go inside `packages/todolist-server` and `packages/todolist-web` and both run `yarn install` + `yarn dev`
 2. **[Important]** Note that `packages/todolist-server` depends on a Postgres DB with a db with name `todolist_db` running, initially I planned to have a docker image for it, but there was too little time left(so if you want to test, you'll need to create that DB `todolist_db` manually, typeorm would automatically run the migrations once started)
 3. node v12.6.0, yarn v1.22.4, psql (PostgreSQL) 12.4
 
-# Frontend Specs
+# Frontend specs
 
 - [x] Able to have a input box to create a todo item
 - [x] In the input box, should be able to give is_favorite, content, is_complete
@@ -27,7 +27,7 @@
 - [ ] Should be able to delete comment
 - [ ] Should be able to switch to in progress and completed view modes
 
-# Backend Spec
+# Backend spec
 
 - [x] POST /create_item (create a new todo item, can also set the initial is_favorite and is_complete status)
       ![](https://i.imgur.com/4mi6YW8.png)
